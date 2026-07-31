@@ -1,4 +1,4 @@
-# Afraim10 biopractice of CS50P#
+# Afraim10 biopractice of CS50P
 def cleanseq(s: str) -> str:
     return s.replace(" ", "").upper().lstrip().rstrip()
 
