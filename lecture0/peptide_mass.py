@@ -1,3 +1,4 @@
+# Afraim10 biopractice of CS50P
 def main():
     residues = int(input("Number of residues: ").upper().replace(" ", ""))
     print('Estimated mass (based on avg amino acid molecular weight):',

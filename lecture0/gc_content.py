@@ -1,3 +1,4 @@
+# Afraim10 biopractice of CS50P
 def main():
     sequence = input("Enter DNA Sequence: ").replace(
         " ", "").upper()

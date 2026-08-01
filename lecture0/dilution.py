@@ -1,3 +1,4 @@
+# Afraim10 biopractice of CS50P
 def main():
     c1 = float(input("Stock concenteration (uM): "))
     c2 = float(input("Desired concenteration (uM): "))
