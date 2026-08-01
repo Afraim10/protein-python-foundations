@@ -38,8 +38,8 @@ python clean_sequence.py
 ## Progress
 
 - [x] Lecture 0 — Functions, Variables
-- [ ] Lecture 1 — Conditionals
-- [ ] Lecture 2 — Loops
+- [x] Lecture 1 — Conditionals
+- [x] Lecture 2 — Loops
 - [ ] Lecture 3 — Exceptions
 - [ ] Lecture 4 — Libraries
 - [ ] Lecture 5 — Unit Tests
