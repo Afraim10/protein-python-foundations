@@ -1,3 +1,4 @@
+# Afraim10 biopractice of CS50P
 def main():
     raw_id = input("Enter a PDB ID: ")
     formatted = format_pdb_id(raw_id)
