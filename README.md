@@ -1,9 +1,26 @@
-# Protein Python Foundations
+<h1 data-importer="text" align="left">Protein Python Foundations</h1>
 
-Original Python practice problems applying core programming fundamentals
-(functions, variables, string methods, type conversion) to small biological
-and protein-science scenarios — written while working through Harvard's
-CS50P alongside a self-directed computational proteomics roadmap.
+###
+
+<img data-importer="image" align="right" height="350" src="https://media.discordapp.net/attachments/1378024790798897348/1533909949921493255/723a9b6f-dfa6-4091-a776-9626d9b3f8fc.png?ex=6a723476&is=6a70e2f6&hm=2ae8cb148da4cbd3c8336ea73825478926a4217883caebe6dffbce51710b3645&=&format=webp&quality=lossless"  />
+
+###
+
+<p data-importer="text" align="left">Original Python practice problems applying core programming fundamentals (functions, variables, string methods, type conversion) to small biological and protein-science scenarios — written while working through Harvard's CS50P alongside a self-directed computational proteomics roadmap.</p>
+
+###
+
+<div data-importer="techs" align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" height="26" alt="python logo"  />
+  <img width="2" />
+  <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" height="26" alt="vscode logo"  />
+  <img width="2" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white&style=for-the-badge" height="26" alt="ubuntu logo"  />
+  <img width="2" />
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" height="26" alt="git logo"  />
+  <img width="2" />
+  <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" height="26" alt="github logo"  />
+</div>
 
 ## What this is
 
