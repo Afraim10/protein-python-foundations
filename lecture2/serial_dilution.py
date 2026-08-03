@@ -5,7 +5,6 @@ def main():
     while dil_fact <= 0:
         print("Invalid dilution factor")
         dil_fact = float(input("Dilution factor: "))
-
     numb_step = int(input("Number of steps: "))
     calculate(start, dil_fact, numb_step)
 
