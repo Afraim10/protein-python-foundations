@@ -2,7 +2,9 @@
 
 ###
 
-<img data-importer="image" align="right" height="350" src="https://media.discordapp.net/attachments/1378024790798897348/1533909949921493255/723a9b6f-dfa6-4091-a776-9626d9b3f8fc.png?ex=6a723476&is=6a70e2f6&hm=2ae8cb148da4cbd3c8336ea73825478926a4217883caebe6dffbce51710b3645&=&format=webp&quality=lossless"  />
+<div data-importer="image" align="center">
+  <img data-importer="image" height="350" src="https://media.discordapp.net/attachments/1378024790798897348/1533909949921493255/723a9b6f-dfa6-4091-a776-9626d9b3f8fc.png?ex=6a723476&is=6a70e2f6&hm=2ae8cb148da4cbd3c8336ea73825478926a4217883caebe6dffbce51710b3645&=&format=webp&quality=lossless"  />
+</div>
 
 ###
 
@@ -21,6 +23,7 @@
   <img width="2" />
   <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" height="26" alt="github logo"  />
 </div>
+
 
 ## What this is
 
