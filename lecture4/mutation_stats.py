@@ -11,7 +11,7 @@ def main():
             sequence = input("Enter DNA sequence: ").replace(" ", "").upper()
             mutations_number = input(
                 "Number of mutations to simulate: ").replace(" ", "")
-            while mutations_number.isalpha() or (int(mutations_number)/float(mutations_number)) != 0 or mutations_number <= 0:
+            while mutations_number.isalpha() and (int(mutations_number)/float(mutations_number)) != 0 and mutations_number <= 0:
                 print("Invalid: Only positive digits allowed.")
                 mutations_number = input(
                     "Number of mutations to simulate: ").replace(" ", "")
@@ -29,6 +29,7 @@ def main():
                     sys.exit()
 
             mutation(sequence, mutations_number)
+            break
         except ValueError:
             pass
 
