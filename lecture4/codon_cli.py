@@ -15,16 +15,12 @@ def main():
         if sequence[i] not in bases:
             print("Invalid: Only DNA bases are allowed.")
             sys.exit(1)
-
-    if sequence.isnumeric():
-        print("Invalid: Only DNA bases are allowed.")
-        sys.exit(1)
     else:
         n = 0
         cleaned = []
         while n in range(len(sequence)):
             if sequence[n:n+3] not in cleaned:
-                cleaned += [sequence[n:n+3]]
+                cleaned.append(sequence[n:n+3])
             n += 3
         print(f"Codons: {', '.join(cleaned)}")
 
