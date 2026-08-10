@@ -6,29 +6,31 @@ import statistics
 
 def main():
     bases = ['A', 'C', 'T', 'G']
-    try:
-        sequence = input("Enter DNA sequence: ").replace(" ", "").upper()
-        mutations_number = input(
-            "Number of mutations to simulate: ").replace(" ", "")
-        while mutations_number.isalpha():
-            print("Invalid: Only digits allowed.")
+    while True:
+        try:
+            sequence = input("Enter DNA sequence: ").replace(" ", "").upper()
             mutations_number = input(
                 "Number of mutations to simulate: ").replace(" ", "")
-        else:
-            mutations_number = int(mutations_number)
+            while mutations_number.isalpha() or (int(mutations_number)/float(mutations_number)) != 0 or mutations_number <= 0:
+                print("Invalid: Only positive digits allowed.")
+                mutations_number = input(
+                    "Number of mutations to simulate: ").replace(" ", "")
+            else:
+                mutations_number = int(mutations_number)
 
-        while sequence.isnumeric():
-            print("Invalid: Only DNA bases are allowed.")
-            sequence = input("Enter DNA sequence: ").replace(" ", "").upper()
-
-        for i in range(len(sequence)):
-            if sequence[i] not in bases:
+            while sequence.isnumeric():
                 print("Invalid: Only DNA bases are allowed.")
-                sys.exit()
+                sequence = input("Enter DNA sequence: ").replace(
+                    " ", "").upper()
 
-        mutation(sequence, mutations_number)
-    except EOFError:
-        pass
+            for i in range(len(sequence)):
+                if sequence[i] not in bases:
+                    print("Invalid: Only DNA bases are allowed.")
+                    sys.exit()
+
+            mutation(sequence, mutations_number)
+        except ValueError:
+            pass
 
 
 def mutation(seq, numb):
@@ -46,8 +48,9 @@ def mutation(seq, numb):
             secondhalf += 1
             positions_mutations.append(position)
     print(f"First half: {firsthalf}, Second half: {secondhalf}")
-    print(f"Mean position: {statistics.mean(positions_mutations)}")
-    print(f"Standard deviation: {statistics.stdev(positions_mutations)}")
+    print(f"Mean position: {round(statistics.mean(positions_mutations),2)}")
+    print(
+        f"Standard deviation: {round(statistics.stdev(positions_mutations),2)}")
 
 
 main()
