@@ -60,12 +60,14 @@ python clean_sequence.py
 - [x] Lecture 0 — Functions, Variables
 - [x] Lecture 1 — Conditionals
 - [x] Lecture 2 — Loops
-- [ ] Lecture 3 — Exceptions
-- [ ] Lecture 4 — Libraries
+- [x] Lecture 3 — Exceptions
+- [ ] Lecture 4 — Libraries (in-progress)
 - [ ] Lecture 5 — Unit Tests
 - [ ] Lecture 6 — File I/O
 - [ ] Lecture 7 — Regular Expressions
 - [ ] Lecture 8 — Object-Oriented Programming
+- [ ] Lecture 9 - Et Cetera
+- [ ] Final Project
 
 ## About
 
