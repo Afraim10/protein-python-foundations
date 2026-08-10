@@ -12,15 +12,16 @@ def main():
             accession = input("UniProt accession: ").replace(" ", "").upper()
 
         prot_info = protein_info(accession)
-        if prot_info != 200:
+        if prot_info.status_code != 200:
             print("Error: invalid accession ID.")
-            raise requests.exceptions.ConnectionError
+            raise ValueError
         extracted_name = process_prot_data(prot_info)
         print(f"Protein name: {extracted_name}")
+
     except requests.exceptions.ConnectionError:
-        print("ConnectionError: No internet acess.")
-    except protein_info(accession).status_code:
-        print("Non-200 status code: bad accession ID.")
+        print("ConnectionError: No internet access.")
+    except ValueError:
+        pass
 
 
 def protein_info(accession):
