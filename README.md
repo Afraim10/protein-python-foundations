@@ -61,9 +61,9 @@ python clean_sequence.py
 - [x] Lecture 1 — Conditionals
 - [x] Lecture 2 — Loops
 - [x] Lecture 3 — Exceptions
-- [ ] Lecture 4 — Libraries (in-progress)
-- [ ] Lecture 5 — Unit Tests
-- [ ] Lecture 6 — File I/O
+- [x] Lecture 4 — Libraries 
+- [x] Lecture 5 — Unit Tests
+- [ ] Lecture 6 — File I/O (in-progress)
 - [ ] Lecture 7 — Regular Expressions
 - [ ] Lecture 8 — Object-Oriented Programming
 - [ ] Lecture 9 - Et Cetera
