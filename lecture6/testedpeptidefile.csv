@@ -1,0 +1,5 @@
+name,residues,mass,classification
+Peptide-A,15,1668.02 Da,short peptide
+Peptide-B,120,13.22 KDa,small protein
+Peptide-C,45,4968.02 Da,peptide
+Peptide-D,310,34.12 KDa,large protein
