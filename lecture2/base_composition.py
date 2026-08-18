@@ -1,16 +1,15 @@
 # Afraim10 biopractice of CS50P: lecture2
 def main():
     sequence = input("Enter DNA sequence: ")
+    # a, t, c, g = count(cleaned) is a consideration as well but i am keeping this
     cleaned = cleanseq(sequence)
     print(f"A: {round(count(cleaned)[0], 1)}%")
     print(f"T: {round(count(cleaned)[1], 1)}%")
     print(f"C: {round(count(cleaned)[2], 1)}%")
     print(f"G: {round(count(cleaned)[3], 1)}%")
-# a, t, c, g = count(cleaned) is a consideration as well but i am keeping this
+
 
 # Reusing cleanseq function from clean_sequence.py from lecture1
-
-
 def cleanseq(seq: str) -> str:
     return seq.replace(" ", "").upper().strip()
 
