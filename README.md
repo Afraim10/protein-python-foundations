@@ -22,6 +22,8 @@
   <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" height="40" alt="git logo"  />
   <img width="1" />
   <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" height="40" alt="github logo"  />
+  <img width="1" />
+  <img src="https://media.discordapp.net/attachments/1378024790798897348/1538611379689361418/image.png?ex=6a834f02&is=6a81fd82&hm=b8e0a03e5fc9f4204c71dbb7d63a9ef9c61445090c9ad5edc9068257a7d94434&=&format=webp&quality=lossless&width=540&height=100" height="27" alt="biopython logo"  />
 </div>
 
 
@@ -63,8 +65,8 @@ python clean_sequence.py
 - [x] Lecture 3 — Exceptions
 - [x] Lecture 4 — Libraries 
 - [x] Lecture 5 — Unit Tests
-- [ ] Lecture 6 — File I/O (in-progress)
-- [ ] Lecture 7 — Regular Expressions
+- [x] Lecture 6 — File I/O 
+- [ ] Lecture 7 — Regular Expressions (in-progress)
 - [ ] Lecture 8 — Object-Oriented Programming
 - [ ] Lecture 9 - Et Cetera
 - [ ] Final Project
