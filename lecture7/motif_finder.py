@@ -29,7 +29,7 @@ def valid_aa(input):
             print()
 
 
-def parser(filepath, format=("fasta", "fa")):
+def parser(filepath, format="fasta"):
     try:
         parsed = {}
         for record in SeqIO.parse(filepath, format):
