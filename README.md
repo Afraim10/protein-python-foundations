@@ -3,7 +3,7 @@
 ###
 
 <div data-importer="image" align="left">
-  <img data-importer="image" height="350" src="https://media.discordapp.net/attachments/1378024790798897348/1533909949921493255/723a9b6f-dfa6-4091-a776-9626d9b3f8fc.png?ex=6a723476&is=6a70e2f6&hm=2ae8cb148da4cbd3c8336ea73825478926a4217883caebe6dffbce51710b3645&=&format=webp&quality=lossless"  />
+  <img data-importer="image" height="350" src="https://media.discordapp.net/attachments/1378024790798897348/1533909949921493255/723a9b6f-dfa6-4091-a776-9626d9b3f8fc.png?ex=6a8a9836&is=6a8946b6&hm=cf96c1027daa463ef940fc74dae469410e707da7908ce1653d4a07e8e54bc38b&=&format=webp&quality=lossless"  />
 </div>
 
 ###
@@ -23,7 +23,7 @@
   <img width="1" />
   <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" height="40" alt="github logo"  />
   <img width="1" />
-  <img src="https://media.discordapp.net/attachments/1378024790798897348/1538611379689361418/image.png?ex=6a834f02&is=6a81fd82&hm=b8e0a03e5fc9f4204c71dbb7d63a9ef9c61445090c9ad5edc9068257a7d94434&=&format=webp&quality=lossless&width=540&height=100" height="27" alt="biopython logo"  />
+  <img src="https://media.discordapp.net/attachments/1378024790798897348/1538611379689361418/image.png?ex=6a8a8f42&is=6a893dc2&hm=939bfc668abd1834df048bcbe45065d12302809cf201a24a7016520eaa5773bf&=&format=webp&quality=lossless" height="27" alt="biopython logo"  />
 </div>
 
 
