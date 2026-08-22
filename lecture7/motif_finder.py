@@ -36,7 +36,7 @@ def parser(filepath, format=("fasta", "fa")):
             parsed[record.id] = str(record.seq)
         return parsed
     except FileNotFoundError:
-        print("File was not found.", file=sys.stderr)
+        sys.exit("File was not found.")
 
 
 def find_motif(seq):
