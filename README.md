@@ -67,8 +67,8 @@ python clean_sequence.py
 - [x] Lecture 5 — Unit Tests
 - [x] Lecture 6 — File I/O 
 - [x] Lecture 7 — Regular Expressions 
-- [ ] Lecture 8 — Object-Oriented Programming (in-progress)
-- [ ] Lecture 9 - Et Cetera
+- [x] Lecture 8 — Object-Oriented Programming 
+- [ ] Lecture 9 - Et Cetera (in-progress)
 - [ ] Final Project
 
 ## About
