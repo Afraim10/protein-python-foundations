@@ -30,7 +30,7 @@ def csv_writing(output, records):
         writer.writeheader()
         for key, value in records.items():
             checker = re.search(
-                r"(?P<db>(?:tr|sp))\|(?P<accession>\w{6})\|(?P<entry>[A-Z0-9_]+)\s(?P<prot_name>.*?)\sOS=(?P<organism>.*?)(?:\sOX=(?P<taxonomy_id>\d+))?(?:\sGN=(?P<gene>\S+))?(?:\sPE=(?P<protein_level>\d))?(?:SV=(?P<seq_ver>\d))?", value)
+                r"(?P<db>(?:tr|sp))\|(?P<accession>\w{6})\|(?P<entry>[A-Z0-9_]+)\s(?P<prot_name>.*?)\sOS=(?P<organism>.*?)(?:\sOX=(?P<taxonomy_id>\d+))?(?:\sGN=(?P<gene>\S+))?(?:\sPE=(?P<protein_level>\d))?(?:\sSV=(?P<seq_ver>\d))?$", value)
             if checker:
                 writer.writerow({"accession": checker.group("accession"), "entry_name": checker.group("entry"), "protein_name": checker.group("prot_name"), "organism": checker.group(
                     "organism"), "taxonomy_id": checker.group("taxonomy_id") or "", "gene_name": checker.group("gene") or ""})

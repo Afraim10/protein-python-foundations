@@ -1,16 +1,16 @@
 accession,entry_name,protein_name,organism,taxonomy_id,gene_name
-A3EX94,SPIKE_BCHK4,Spike glycoprotein,,,
-A3EXG6,SPIKE_BCHK9,Spike glycoprotein,,,
-K9N5Q8,SPIKE_MERS1,Spike glycoprotein,,,
-P0DTC2,SPIKE_SARS2,Spike glycoprotein,,,
-P11223,SPIKE_IBVB,Spike glycoprotein,,,
-P59594,SPIKE_SARS,Spike glycoprotein,,,
-Q14EB0,SPIKE_CVHN2,Spike glycoprotein,,,
-Q3I5J5,SPIKE_BCRP3,Spike glycoprotein,,,
-Q8BB25,SPIKE_CVP67,Spike glycoprotein,,,
-Q8JSP8,SPIKE_CVPIA,Spike glycoprotein,,,
-Q8V436,SPIKE_CVBLU,Spike glycoprotein,,,
-Q91A26,SPIKE_CVBEN,Spike glycoprotein,,,
-Q9IKD1,SPIKE_CVRSD,Spike glycoprotein,,,
-Q9QAQ8,SPIKE_CVBOK,Spike glycoprotein,,,
-Q9QAR5,SPIKE_CVBLS,Spike glycoprotein,,,
+A3EX94,SPIKE_BCHK4,Spike glycoprotein,Bat coronavirus HKU4,694007,S
+A3EXG6,SPIKE_BCHK9,Spike glycoprotein,Bat coronavirus HKU9,694006,S
+K9N5Q8,SPIKE_MERS1,Spike glycoprotein,Middle East respiratory syndrome-related coronavirus (isolate United Kingdom/H123990006/2012),1263720,S
+P0DTC2,SPIKE_SARS2,Spike glycoprotein,Severe acute respiratory syndrome coronavirus 2,2697049,S
+P11223,SPIKE_IBVB,Spike glycoprotein,Avian infectious bronchitis virus (strain Beaudette),11122,S
+P59594,SPIKE_SARS,Spike glycoprotein,Severe acute respiratory syndrome coronavirus,694009,S
+Q14EB0,SPIKE_CVHN2,Spike glycoprotein,Human coronavirus HKU1 (isolate N2),443240,S
+Q3I5J5,SPIKE_BCRP3,Spike glycoprotein,Bat coronavirus Rp3/2004,349344,S
+Q8BB25,SPIKE_CVP67,Spike glycoprotein,Porcine hemagglutinating encephalomyelitis virus (strain 67N),230237,S
+Q8JSP8,SPIKE_CVPIA,Spike glycoprotein,Porcine hemagglutinating encephalomyelitis virus (strain IAF-404),230236,S
+Q8V436,SPIKE_CVBLU,Spike glycoprotein,Bovine coronavirus (strain 98TXSF-110-LUN),233264,S
+Q91A26,SPIKE_CVBEN,Spike glycoprotein,Bovine coronavirus (strain 98TXSF-110-ENT),233262,S
+Q9IKD1,SPIKE_CVRSD,Spike glycoprotein,Rat coronavirus (strain 681),33740,S
+Q9QAQ8,SPIKE_CVBOK,Spike glycoprotein,Bovine coronavirus (strain OK-0514),231432,S
+Q9QAR5,SPIKE_CVBLS,Spike glycoprotein,Bovine coronavirus (strain LSU-94LSS-051),233261,S
