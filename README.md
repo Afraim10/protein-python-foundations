@@ -3,7 +3,7 @@
 ###
 
 <div data-importer="image" align="left">
-  <img data-importer="image" height="350" src="https://media.discordapp.net/attachments/1378024790798897348/1533909949921493255/723a9b6f-dfa6-4091-a776-9626d9b3f8fc.png?ex=6a8a9836&is=6a8946b6&hm=cf96c1027daa463ef940fc74dae469410e707da7908ce1653d4a07e8e54bc38b&=&format=webp&quality=lossless"  />
+  <img data-importer="image" height="350" src="https://i.postimg.cc/J0ZYsT7W/Protein-Python-Foundations-Github-Repo.png"  />
 </div>
 
 ###
