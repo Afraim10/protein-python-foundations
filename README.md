@@ -68,8 +68,8 @@ python clean_sequence.py
 - [x] Lecture 6 — File I/O 
 - [x] Lecture 7 — Regular Expressions 
 - [x] Lecture 8 — Object-Oriented Programming 
-- [ ] Lecture 9 - Et Cetera (in-progress)
-- [ ] Final Project
+- [x] Lecture 9 - Et Cetera 
+- [ ] Final Project (in-progress)
 
 ## About
 
