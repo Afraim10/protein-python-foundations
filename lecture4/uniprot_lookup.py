@@ -16,7 +16,7 @@ def main():
             print("Error: invalid accession ID.")
             raise ValueError
         extracted_name = process_prot_data(prot_info)
-        print(f"Protein name: {extracted_name}")
+        print(f"Protein name: {extracted_name[0]}")
 
     except requests.exceptions.ConnectionError:
         print("ConnectionError: No internet access.")
@@ -35,7 +35,9 @@ def process_prot_data(info):
     recom_name = raw['recommendedName']
     fullname = recom_name['fullName']
     name_value = fullname['value']
-    return name_value
+    raw_seq = dictionariated["sequence"]
+    seq = raw_seq['value']
+    return name_value, seq
 
 
 main()
