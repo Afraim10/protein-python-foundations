@@ -1,0 +1,8 @@
+>seq1_DNA | Organism: Synthetic plasmid | Type: DNA
+ATGCGATCGATCGATCGATCGATCGATCGATCGATCGA
+>seq2_Protein | Organism: Model enzyme | Type: Protein
+MKLAVLYLFFLLTFASASVGAPVQSQTDAPVASQAAPV
+>seq3_DNA | Gene: rbcL fragment | Type: DNA
+ATGTCACCACAAACAGAGACTAAAGCAAGTGTTGGATT
+>seq4_Protein | Protein: Hemoglobin subunit alpha | Type: Protein
+MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF
