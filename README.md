@@ -69,7 +69,7 @@ python clean_sequence.py
 - [x] Lecture 7 — Regular Expressions 
 - [x] Lecture 8 — Object-Oriented Programming 
 - [x] Lecture 9 - Et Cetera 
-- [ ] Final Project (in-progress)
+- [x] Final Project (Peptide/Sequence Database (SQLite) & FASTA Batch Analyzer)
 
 ## About
 
