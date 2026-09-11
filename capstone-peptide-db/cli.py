@@ -1,5 +1,6 @@
 import argparse
-from db import (create_connection, create_table, add_record, list_records)
+from db import (create_connection, create_table, add_record,
+                list_records, query_by_classification, delete_record)
 from models import DNA, Protein
 
 
@@ -14,6 +15,10 @@ def main():
         "--type", choices=["DNA", "protein"], required=True)
 
     subparsers.add_parser("list")
+    query_parser = subparsers.add_parser("query")
+    query_parser.add_argument("--classification", required=True)
+    delete_parser = subparsers.add_parser("delete")
+    delete_parser.add_argument("--id", type=int, required=True)
 
     args = parser.parse_args()
     conn = create_connection()
@@ -45,6 +50,13 @@ def main():
     elif args.command == "list":
         for row in list_records(conn):
             print(row)
+
+    elif args.command == "query":
+        for row in query_by_classification(conn, args.classification):
+            print(row)
+
+    elif args.command == "delete":
+        delete_record(conn, args.id)
 
 
 if __name__ == "__main__":
