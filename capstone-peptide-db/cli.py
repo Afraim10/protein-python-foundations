@@ -46,17 +46,33 @@ def main():
             mass=mass,
             classification=classification
         )
+        print("Record added.")
 
     elif args.command == "list":
-        for row in list_records(conn):
-            print(row)
+        records = list_records(conn)
+        if records:
+            for row in records:
+                print(row)
+            print(f"\n{len(list_records(conn))} record(s) listed.")
+        else:
+            print(f"\nNo records listed. Table is empty.")
 
     elif args.command == "query":
-        for row in query_by_classification(conn, args.classification):
-            print(row)
+        records = query_by_classification(conn, args.classification)
+
+        if records:
+            for row in records:
+                print(row)
+            print(f"\n{len(records)} classified record(s) listed.")
+        else:
+            print("No classified records found.")
 
     elif args.command == "delete":
-        delete_record(conn, args.id)
+        deleted = delete_record(conn, args.id)
+        if deleted:
+            print(f"Record {args.id} deleted.")
+        else:
+            print("No record found.")
 
 
 if __name__ == "__main__":

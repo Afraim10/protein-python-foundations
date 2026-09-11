@@ -47,3 +47,4 @@ def delete_record(conn, record_id):
     cursor = conn.execute(
         "DELETE FROM biomolecules WHERE id = ?", (record_id,))
     conn.commit()
+    return cursor.rowcount
