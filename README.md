@@ -3,7 +3,7 @@
 ###
 
 <div data-importer="image" align="left">
-  <img data-importer="image" height="350" src="https://i.postimg.cc/J0ZYsT7W/Protein-Python-Foundations-Github-Repo.png"  />
+  <img data-importer="image" height="450" src="https://i.postimg.cc/J0ZYsT7W/Protein-Python-Foundations-Github-Repo.png"  />
 </div>
 
 ###
@@ -80,6 +80,10 @@ Standard library throughout the lecture folders. The capstones add
 `sqlite3` — no external database server required.
 
 ## How this was done
+
+<div data-importer="image" align="center">
+  <img data-importer="image" height="500" src="https://i.postimg.cc/d0Z7c6fr/protein-python-foundations-projects-poster.jpg"  />
+</div>
 
 Each lecture's problems were attempted independently against that week's
 CS50P material, applying the concept to an original scenario rather than
