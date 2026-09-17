@@ -94,6 +94,7 @@ its exact syntax was researched rather than already known. That's noted
 directly in that capstone's own README rather than left implicit.
 
 ## Status
+Complete. All lectures and the final projects were finished section by section as the course progressed.
 
 - [x] Lecture 0 — Functions, Variables
 - [x] Lecture 1 — Conditionals
