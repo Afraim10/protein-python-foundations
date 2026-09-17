@@ -1,0 +1,5 @@
+name,type,length,gc_content,mass
+seq1_DNA,DNA sequence,38,50.0,
+seq2_Protein,Protein sequence,38,,4198.02
+seq3_DNA,DNA sequence,38,39.47,
+seq4_Protein,Protein sequence,47,,5188.02
