@@ -52,6 +52,12 @@ For the actual research portfolio this feeds into:
 
 ## Structure
 
+<p align="left">
+  <img src="assets/python-architecture-diagram.png" alt="..." width="750">
+</p>
+
+*The diagram above maps to the folder layout below.*
+
 ```
 lecture0/  through  lecture8/
   — one folder per CS50P lecture, biology-themed practice problems
@@ -81,7 +87,7 @@ Standard library throughout the lecture folders. The capstones add
 
 ## How this was done
 
-<div data-importer="image" align="center">
+<div data-importer="image" align="left">
   <img data-importer="image" height="500" src="https://i.postimg.cc/d0Z7c6fr/protein-python-foundations-projects-poster.jpg"  />
 </div>
 
