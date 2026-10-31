@@ -1,5 +1,20 @@
 name,residues,mass,classification
-Peptide-A,15,1668.02 Da,short peptide
-Peptide-B,120,13.22 KDa,small protein
-Peptide-C,45,4968.02 Da,peptide
-Peptide-D,310,34.12 KDa,large protein
+Peptide-A,15,1650.00 Da,short peptide
+Peptide-B,120,13.20 KDa,small protein
+Peptide-C,45,4950.00 Da,polypeptide
+Peptide-D,310,34.10 KDa,medium protein
+Peptide-E,92,10.12 KDa,small protein
+Peptide-F,765,84.15 KDa,large protein
+Peptide-G,50,5.50 KDa,polypeptide
+Peptide-H,2450,269.50 KDa,megaprotein/macromolecular assembly
+Peptide-I,560,61.60 KDa,large protein
+Peptide-J,18,1.98 KDa,short peptide
+Peptide-K,32,3.52 KDa,short peptide
+Peptide-L,85,9.35 KDa,small protein
+Peptide-M,145,15.95 KDa,small protein
+Peptide-N,210,23.10 KDa,medium protein
+Peptide-O,420,46.20 KDa,medium protein
+Peptide-P,680,74.80 KDa,large protein
+Peptide-Q,1150,126.50 KDa,large protein
+Peptide-R,1850,203.50 KDa,megaprotein
+Peptide-S,3200,352.00 KDa,megaprotein
