@@ -26,6 +26,16 @@
   <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" height="40" alt="git logo"  />
   <img width="1" />
   <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" height="40" alt="github logo"  />
+  <img width="1" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=black&style=for-the-badge" height="40" alt="jupyter logo"  />
+  <img width="1" />
+  <img src="https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white&style=for-the-badge" height="40" alt="numpy logo"  />
+  <img width="1" />
+  <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white&style=for-the-badge" height="40" alt="pandas logo"  />
+  <img width="1" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?logo=https://raw.githubusercontent.com/Afraim10/protein-python-foundations/main/assets/Matplotlib_icon.png&style=for-the-badge" height="40" alt="matplotlib logo" />
+  <img width="1" />
+  <img src="https://img.shields.io/badge/Seaborn-444876?logo=https://raw.githubusercontent.com/Afraim10/protein-python-foundations/main/assets/seaborn_icon.png&style=for-the-badge" height="40" alt="seaborn logo"  />
 </div>
 
 ## What this is
