@@ -33,7 +33,7 @@
   <img width="1" />
   <img src="https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white&style=for-the-badge" height="40" alt="pandas logo"  />
   <img width="1" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?logo=https://raw.githubusercontent.com/Afraim10/protein-python-foundations/main/assets/Matplotlib_icon.png&style=for-the-badge" height="40" alt="matplotlib logo" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?logo=matplotlib&logoColor=white&style=for-the-badge&v=2" height="40" alt="matplotlib logo"  />
   <img width="1" />
   <img src="https://img.shields.io/badge/Seaborn-444876?logo=https://raw.githubusercontent.com/Afraim10/protein-python-foundations/main/assets/seaborn_icon.png&style=for-the-badge" height="40" alt="seaborn logo"  />
 </div>
